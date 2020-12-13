@@ -1,0 +1,17 @@
+body * {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.container .item {
+  width: 350px;
+  text-align: center;
+}
+.container .item img {
+  width: 100%;
+  padding: 20px 0;
+}
